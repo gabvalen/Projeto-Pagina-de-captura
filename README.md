@@ -11,7 +11,7 @@
 
 ### Instalação 
 
-Clone este repositório usando git clone 
+Clone este repositório usando git clone https://github.com/gabvalen/Projeto-Pagina-de-captura.git 
 ou clique em Code/Download ZIP.
 Clique no arquivo "index.HTML" e veja a aplicação.
 
