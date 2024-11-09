@@ -1,69 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <img src="evento2.jpg"      alt="foto do evento"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <link rel="stylesheet" type="text/css" href="./css/style.css">  
     <title>Workshop</title>
-   <link href="https://gabvalen.github.io/Projeto-Pagina-de-captura/style.css" rel="stylesheet" />
-<script src="https://gabvalen.github.io/Projeto-Pagina-de-captura/scripts.js"></script>
-<link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://gabvalen.github.io/Projeto-Pagina-de-captura/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        /* Estilo para o botão de inscrição */
+        input[type="submit"] {
+            background-color: #007bff; /* Azul */
+            color: white;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Azul mais escuro */
+        }
+
+        /* Estilo para a mensagem de confirmação */
+        #confirmationMessage {
+            display: none;
+            background-color: #28a745; /* Verde suave */
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+            width: 80%;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Estilo para a seção do palestrante */
+        .description {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .palestrante-content {
+            font-size: 16px;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 15px;
+        }
+
+        .palestrante-content p {
+            line-height: 1.6;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-
-    
-    
-
-     
 
     <div class="container">
         <header>
             <h1 class="title">PARTICIPE DO WORKSHOP QUE VAI MUDAR SUA VIDA</h1>
-
-
+            <img src="evento2.jpg" alt="foto do evento" style="width: 100%; max-width: 800px;">
             <img src="fotocestas.jpg" align="left" alt="cesta de frutas">
-            
         </header>
+
         <section>
             <div class="formContainer">
                 <h2 class="mb">GARANTA SUA VAGA NO WORKSHOP COM O MAIOR ESPECIALISTA EM AGROECOLOGIA DA ATUALIDADE</h2>
                 <p class="mb">Neste evento, você vai aprender todos os segredos para aprender a cuidar melhor da sua alimentação, sem precisar contar as moedas no final do mês.</p>
-            
-                <input id="name" name="FNAME" type="text" placeholder="Nome">
-                <input id="email" name="EMAIL" type="text" placeholder="E-mail">
-                <select name="PLACE">
-                    <option value="rj">Rio de Janeiro</option>
-                    <option value="sp">São Paulo</option>
-                    <option value="mg">Minas Gerais</option>
-                    <option value="es">Espirito Santo</option>
-                </select>
-                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fad9d1552fe0bcab4e9811f27_0c064e48f3" tabindex="-1" value=""></div>
-                <div class="clear"></div>
-                <input type="submit" value="INSCREVA-SE">
-            </form>
-            </div><!--formContainer-->
+                
+                <!-- Formulário de Inscrição Mailchimp -->
+                <form action="https://github.us3.list-manage.com/subscribe/post?u=ce9d350ca5f8d5b80f6a83fac&amp;id=d9cf794be5&amp;f_id=00d982e0f0" method="post" target="_blank" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                    <input type="text" name="FNAME" placeholder="Nome" required>
+                    <input type="text" name="PHONE" placeholder="Telefone/WhatsApp" required pattern="\d*">
+                    <input type="email" name="EMAIL" placeholder="E-mail" required>
+                    <select name="PLACE" required>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="es">Espírito Santo</option>
+                    </select>
+                    <input type="submit" value="INSCREVA-SE" id="submitBtn">
+                </form>
+            </div>
         </section>
+
+        <!-- Mensagem de Confirmação -->
+        <div id="confirmationMessage">
+            <p>Quase lá! Preencha corretamente as informações pra não ficar de fora, sua presença é <I></I>MUITO</I> importante para nós! </p>
+        </div>
+
         <footer>
-            
-            <img src="face.jpg"  alt="foto do caiçara"> 
-            <img class="picture" src="./imagens/face.jpg" alt="">
+            <img src="face.jpg" alt="foto do caiçara"> 
             <div class="description">
-                <h3><u>O Palestrante</h3></u>
-                <strong>
-                    <b>
-                        
-                <p> <I>Maciel </I>- Um caiçara barriga verde que hoje vive no seu sítio agroecológico localizado em São Luiz do Paraitinga. Lá é seu mundo! É onde ele se entrega para a terra e honra de todas as maneiras essa oportunidade (que ele chama de presente) de cuidar do chão e tirar seu sustento dali. Maciel é analógico,não tem telefone e a única maneira que tem de falar com ele é presencialmente, não sei se é proposital mas ele adora receber visitas,compartilhar seus conhecimentos e contar os causos que rendem longas resenhas… E vamos combinar que é um privilégio conviver e conhecer essa figura e o paraíso que ele chama de lar. Pensando nisso o principal projeto é disseminar vivências e conhecimentos da terra e da cultura caiçara/caipira. E nesse mês vamos ter o PRIMEIRO encontro que será repleto de aprendizados,risadas,comida boa e histórias de pescador.</p>
-            </strong>
-        </b>
-    
-
-            </div><!--description-->
+                <h3><u>O Palestrante</u></h3>
+                <div class="palestrante-content">
+                    <p><i>Maciel</i> - Um caiçara barriga verde que hoje vive no seu sítio agroecológico localizado em São Luiz do Paraitinga. Lá é seu mundo! É onde ele se entrega para a terra e honra de todas as maneiras essa oportunidade (que ele chama de presente) de cuidar do chão e tirar seu sustento dali. Maciel é analógico, não tem telefone e a única maneira que tem de falar com ele é presencialmente. Não sei se é proposital, mas ele adora receber visitas, compartilhar seus conhecimentos e contar os causos que rendem longas resenhas. E vamos combinar que é um privilégio conviver e conhecer essa figura e o paraíso que ele chama de lar. Pensando nisso, o principal projeto é disseminar vivências e conhecimentos da terra e da cultura caiçara/caipira. E nesse mês vamos ter o PRIMEIRO encontro, que será repleto de aprendizados, risadas, comida boa e histórias de pescador.</p>
+                </div>
+            </div>
         </footer>
+    </div>
 
-    </div><!--container-->
+    <script>
+        document.getElementById("submitBtn").addEventListener("click", function(event) {
+            // Exibe a mensagem de confirmação
+            document.getElementById("confirmationMessage").style.display = "block";
+        });
+    </script>
+
 </body>
 </html>
