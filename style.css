@@ -23,7 +23,7 @@ header{
 }
 section{
     padding: 20px;
-    background-image: url(../imagens/evento2.jpg);
+    background-image: url(../evento2.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -54,7 +54,7 @@ select{
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(../imagens/arrow.jpg);
+    background-image: url(../imagens/face.jpg);
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 
@@ -84,6 +84,7 @@ footer{
 
     footer{
         width: 100%;
+     
     }
 
 }
