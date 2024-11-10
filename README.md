@@ -20,3 +20,8 @@ Clique no arquivo "index.HTML" e veja a aplicação.
 
 
 ### Observação: Se abrir a aplicação no celular, tablet ou qualquer tipo de tela a aplicação se adapta.
+🚀Animada para compartilhar meu último projeto com o público !
+
+Trata-se da criação de um projeto relacionado à faculdade, pensei em proporcionar uma experiência tecnológica para realizar cadastro de pessoas  em  eventos de cursos no ambiente rural . Dando uma maior visibilidade a uma área remota , alcance a um maior números de pessoas, informando datas que esses eventos ocorrerão e gerando retorno financeiro ao produtor orgânico regulamentado.
+
+📊 Para isso acontecer, dediquei um tempo considerável a estudo de Javascript, Css e Mailchimp. 
